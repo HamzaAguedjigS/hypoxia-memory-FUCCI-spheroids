@@ -1,0 +1,68 @@
+initial-condition check (q0_hyp free for M_F and M_D; v8 otherwise): 12 workers, started Sat Oct 10 23:15:34 2026
+
+=== stage 1 (free fits and profiles): 39 jobs to run (0 already done) ===
+[stage 1 (free fits and profiles) 1/39] i|q0|0.1|b0  NLL=3943.62  (44.6 min)  00:00
+[stage 1 (free fits and profiles) 2/39] i|q0|0.3|b0  NLL=3943.20  (45.6 min)  00:01
+[stage 1 (free fits and profiles) 3/39] i|q0|0.03|b0  NLL=3943.98  (47.0 min)  00:02
+[stage 1 (free fits and profiles) 4/39] i|q0|0.001|b0  NLL=3943.65  (47.4 min)  00:02
+[stage 1 (free fits and profiles) 5/39] i|entry|4|b0  NLL=3954.30  (49.1 min)  00:04
+[stage 1 (free fits and profiles) 6/39] i|q0|1|b0  NLL=3941.18  (49.9 min)  00:05
+[stage 1 (free fits and profiles) 7/39] i|entry|2|b0  NLL=3948.17  (49.9 min)  00:05
+[stage 1 (free fits and profiles) 8/39] i|free|finQ|b1|q0.05  NLL=3928.77  (68.9 min)  00:24
+[stage 1 (free fits and profiles) 9/39] i|free|finQ|b1|q0.5  NLL=3928.91  (69.0 min)  00:24
+[stage 1 (free fits and profiles) 10/39] i|free|finQ|b0|q0.5  NLL=3941.22  (69.0 min)  00:24
+[stage 1 (free fits and profiles) 11/39] i|free|finQ|b0|q0.05  NLL=3940.91  (69.1 min)  00:24
+[stage 1 (free fits and profiles) 12/39] i|free|delayQ|b0  NLL=3978.70  (69.2 min)  00:24
+[stage 1 (free fits and profiles) 13/39] i|entry|8|b0  NLL=3966.69  (49.7 min)  00:49
+[stage 1 (free fits and profiles) 14/39] i|entry|16|b0  NLL=3985.06  (49.8 min)  00:51
+[stage 1 (free fits and profiles) 15/39] i|exit|72|b0  NLL=3954.78  (49.9 min)  00:52
+[stage 1 (free fits and profiles) 16/39] i|exit|96|b0  NLL=3960.31  (50.0 min)  00:53
+[stage 1 (free fits and profiles) 17/39] i|exit|125|b0  NLL=3950.96  (49.5 min)  00:54
+[stage 1 (free fits and profiles) 18/39] i|exit|150|b0  NLL=3947.87  (49.9 min)  00:55
+[stage 1 (free fits and profiles) 19/39] i|exit|180|b0  NLL=3947.97  (49.9 min)  00:55
+[stage 1 (free fits and profiles) 20/39] i|q0|0.03|b1  NLL=3932.64  (32.3 min)  00:57
+[stage 1 (free fits and profiles) 21/39] i|q0|0.001|b1  NLL=3932.71  (32.8 min)  00:57
+[stage 1 (free fits and profiles) 22/39] i|exit|400|b0  NLL=3995.87  (48.2 min)  01:12
+[stage 1 (free fits and profiles) 23/39] i|exit|220|b0  NLL=3947.03  (48.4 min)  01:12
+[stage 1 (free fits and profiles) 24/39] i|exit|260|b0  NLL=3957.27  (48.6 min)  01:13
+[stage 1 (free fits and profiles) 25/39] i|q0|0.1|b1  NLL=3932.44  (32.0 min)  01:21
+[stage 1 (free fits and profiles) 26/39] i|q0|0.3|b1  NLL=3931.80  (46.9 min)  01:37
+[stage 1 (free fits and profiles) 27/39] i|q0|1|b1  NLL=3929.08  (47.8 min)  01:40
+[stage 1 (free fits and profiles) 28/39] i|entry|2|b1  NLL=3931.89  (47.6 min)  01:40
+[stage 1 (free fits and profiles) 29/39] i|entry|4|b1  NLL=3945.55  (47.3 min)  01:41
+[stage 1 (free fits and profiles) 30/39] i|entry|8|b1  NLL=3948.17  (47.5 min)  01:42
+[stage 1 (free fits and profiles) 31/39] i|entry|16|b1  NLL=3965.34  (47.5 min)  01:42
+[stage 1 (free fits and profiles) 32/39] i|exit|72|b1  NLL=3943.66  (46.7 min)  01:43
+[stage 1 (free fits and profiles) 33/39] i|exit|96|b1  NLL=3934.88  (46.6 min)  01:44
+[stage 1 (free fits and profiles) 34/39] i|exit|150|b1  NLL=3934.49  (40.6 min)  01:53
+[stage 1 (free fits and profiles) 35/39] i|exit|180|b1  NLL=3929.03  (40.3 min)  01:53
+[stage 1 (free fits and profiles) 36/39] i|exit|125|b1  NLL=3937.43  (40.7 min)  01:53
+[stage 1 (free fits and profiles) 37/39] i|exit|220|b1  NLL=3933.86  (36.0 min)  01:57
+[stage 1 (free fits and profiles) 38/39] i|exit|260|b1  NLL=3949.30  (27.0 min)  02:05
+[stage 1 (free fits and profiles) 39/39] i|exit|400|b1  NLL=3993.41  (25.7 min)  02:06
+
+=== stage 2 round 1 (repair and polish): 10 jobs to run (0 already done) ===
+[stage 2 round 1 (repair and polish) 1/10] i2r1|i|exit|260|b1  NLL=3949.32  (39.8 min)  02:45
+[stage 2 round 1 (repair and polish) 2/10] i2r1|i|q0|0.3|b1  NLL=3931.83  (39.9 min)  02:45
+[stage 2 round 1 (repair and polish) 3/10] i2r1|i|exit|400|b1  NLL=3994.07  (39.9 min)  02:45
+[stage 2 round 1 (repair and polish) 4/10] i2r1|i|entry|8|b1  NLL=3948.51  (40.0 min)  02:46
+[stage 2 round 1 (repair and polish) 5/10] i2r1|i|entry|16|b1  NLL=3961.05  (40.3 min)  02:46
+[stage 2 round 1 (repair and polish) 6/10] i2r1|i|exit|220|b1  NLL=3933.54  (40.4 min)  02:46
+[stage 2 round 1 (repair and polish) 7/10] i2r1|i|entry|4|b1  NLL=3944.32  (40.4 min)  02:46
+[stage 2 round 1 (repair and polish) 8/10] i2r1|i|exit|72|b1  NLL=3942.93  (40.4 min)  02:46
+[stage 2 round 1 (repair and polish) 9/10] i2r1|i|exit|125|b1  NLL=3937.17  (40.5 min)  02:46
+[stage 2 round 1 (repair and polish) 10/10] i2r1|i|exit|150|b1  NLL=3934.55  (40.5 min)  02:46
+
+=== stage 2 round 2 (repair and polish): 10 jobs to run (0 already done) ===
+[stage 2 round 2 (repair and polish) 1/10] i2r2|i|q0|0.3|b1  NLL=3931.83  (39.6 min)  03:26
+[stage 2 round 2 (repair and polish) 2/10] i2r2|i|exit|400|b1  NLL=3994.07  (40.3 min)  03:26
+[stage 2 round 2 (repair and polish) 3/10] i2r2|i2r1|i|exit|72|b1  NLL=3942.93  (40.3 min)  03:26
+[stage 2 round 2 (repair and polish) 4/10] i2r2|i2r1|i|entry|16|b1  NLL=3961.05  (40.6 min)  03:27
+[stage 2 round 2 (repair and polish) 5/10] i2r2|i|exit|150|b1  NLL=3934.55  (40.6 min)  03:27
+[stage 2 round 2 (repair and polish) 6/10] i2r2|i2r1|i|exit|125|b1  NLL=3937.17  (40.6 min)  03:27
+[stage 2 round 2 (repair and polish) 7/10] i2r2|i|exit|260|b1  NLL=3949.09  (40.6 min)  03:27
+[stage 2 round 2 (repair and polish) 8/10] i2r2|i|entry|8|b1  NLL=3949.10  (40.7 min)  03:27
+[stage 2 round 2 (repair and polish) 9/10] i2r2|i2r1|i|entry|4|b1  NLL=3944.32  (40.7 min)  03:27
+[stage 2 round 2 (repair and polish) 10/10] i2r2|i2r1|i|exit|220|b1  NLL=3933.54  (40.7 min)  03:27
+
+initial-condition check finished Sun Oct 11 03:27:15 2026

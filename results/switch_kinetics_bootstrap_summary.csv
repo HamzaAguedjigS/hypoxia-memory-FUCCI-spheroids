@@ -1,0 +1,9 @@
+direction,cell_line,model,median_h,lo_h,hi_h,delay_lo_h,delay_hi_h
+entry,WM164,Erlang k=1,14.54,6.61,25.2,,
+entry,WM164,Erlang k=8,20.93,14.76,27.34,,
+entry,WM793b,Erlang k=1,5.685,0.615,13.21,,
+entry,WM793b,Erlang k=8,12.91,2.623,19.08,,
+entry,WM983b,Erlang k=1,493.4,410.1,611,,
+entry,WM983b,delayed exp.,66.7,48.8,148.8,24,46.65
+exit,WM793b,Erlang k=1,22.86,14.47,27.59,,
+exit,WM793b,delayed exp.,28.87,23.94,33.91,4.46e-13,20.65

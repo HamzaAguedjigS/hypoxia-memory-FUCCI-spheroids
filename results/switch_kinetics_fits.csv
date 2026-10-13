@@ -1,0 +1,57 @@
+direction,cell_line,growth,model,mean_time_h,nll,AIC,n,LRT_vs_instant,delay_h,rate_time_h,CI_lo_h,CI_hi_h,note,f_inf
+exit,WM793b,r_hat,Erlang k=1,22.888,-161.63,-315.26,87,16149,,,,,,
+exit,WM793b,r_hat,Erlang k=2,28.873,-162.29,-316.58,87,16150,,,,,,
+exit,WM793b,r_hat,Erlang k=3,33.228,-158.45,-308.89,87,16143,,,,,,
+exit,WM793b,r_hat,Erlang k=4,36.618,-154.02,-300.04,87,16134,,,,,,
+exit,WM793b,r_hat,Erlang k=6,41.961,-146.39,-284.77,87,16119,,,,,,
+exit,WM793b,r_hat,Erlang k=8,46.033,-140.64,-273.28,87,16107,,,,,,
+exit,WM793b,r_hat,delayed exp.,29.462,-164.44,-318.88,87,16155,10.534,18.928,,,,
+exit,WM793b,r_hat,instantaneous,0,7912.9,15832,87,,,,,,,
+exit,WM793b,r_hat,delayed exp.,29.462,,,,,,,23.38,34.654,profile-likelihood 95% CI of the mean waiting time,
+exit,WM793b,r_hat,Erlang k=1,22.888,,,,,,,19.57,26.756,profile-likelihood 95% CI of the mean waiting time,
+exit,WM793b,r=0,Erlang k=1,19.361,-161.37,-314.73,87,16149,,,,,,
+exit,WM793b,r=0,Erlang k=2,25.402,-162.24,-316.48,87,16150,,,,,,
+exit,WM793b,r=0,Erlang k=3,29.738,-157.64,-307.28,87,16141,,,,,,
+exit,WM793b,r=0,Erlang k=4,33.139,-152.33,-296.66,87,16131,,,,,,
+exit,WM793b,r=0,Erlang k=6,38.414,-143.22,-278.44,87,16112,,,,,,
+exit,WM793b,r=0,Erlang k=8,42.413,-136.4,-264.81,87,16099,,,,,,
+exit,WM793b,r=0,delayed exp.,26.086,-164.55,-319.1,87,16155,9.7803,16.306,,,,
+exit,WM793b,r=0,instantaneous,0,7912.9,15832,87,,,,,,,
+exit,WM793b,2r_hat,Erlang k=1,27.977,-161.87,-315.74,87,16150,,,,,,
+exit,WM793b,2r_hat,Erlang k=2,33.588,-162.36,-316.72,87,16151,,,,,,
+exit,WM793b,2r_hat,Erlang k=3,37.851,-159.27,-310.55,87,16144,,,,,,
+exit,WM793b,2r_hat,Erlang k=4,41.347,-155.76,-303.53,87,16137,,,,,,
+exit,WM793b,2r_hat,Erlang k=6,46.751,-149.68,-291.35,87,16125,,,,,,
+exit,WM793b,2r_hat,Erlang k=8,29.608,-136.97,-265.93,87,16100,,,,,,
+exit,WM793b,2r_hat,delayed exp.,34.183,-164.32,-318.65,87,16155,11.63,22.553,,,,
+exit,WM793b,2r_hat,instantaneous,0,7912.9,15832,87,,,,,,,
+entry,WM793b,,Erlang k=1,6.1386,-43.701,-81.402,48,0.070222,,,,,,0.37898
+entry,WM793b,,Erlang k=2,8.5362,-43.708,-81.417,48,0.08481,,,,,,0.37934
+entry,WM793b,,Erlang k=3,9.9804,-43.711,-81.421,48,0.089307,,,,,,0.37945
+entry,WM793b,,Erlang k=4,10.998,-43.711,-81.423,48,0.090931,,,,,,0.3795
+entry,WM793b,,Erlang k=6,12.408,-43.712,-81.424,48,0.091856,,,,,,0.37952
+entry,WM793b,,Erlang k=8,13.38,-43.712,-81.424,48,0.092041,,,,,,0.37953
+entry,WM793b,,delayed exp.,21.419,-43.712,-79.424,48,0.092101,20.445,0.97486,,,,0.37953
+entry,WM793b,,instantaneous,0,-43.666,-83.332,48,,,,,,,
+entry,WM793b,,Erlang k=1,6.1386,,,,,,,,13.39,profile-likelihood 95% CI of the mean waiting time,
+entry,WM793b,,Erlang k=8,13.38,,,,,,,,18.411,profile-likelihood 95% CI of the mean waiting time,
+entry,WM164,,Erlang k=1,14.753,-9.4445,-12.889,37,2.7251,,,,,,0.45511
+entry,WM164,,Erlang k=2,17.755,-9.9745,-13.949,37,3.7852,,,,,,0.46154
+entry,WM164,,Erlang k=3,19.191,-10.269,-14.538,37,4.3742,,,,,,0.46437
+entry,WM164,,Erlang k=4,19.999,-10.441,-14.883,37,4.7187,,,,,,0.46592
+entry,WM164,,Erlang k=6,20.844,-10.611,-15.222,37,5.0582,,,,,,0.46743
+entry,WM164,,Erlang k=8,21.268,-10.679,-15.357,37,5.1934,,,,,,0.46807
+entry,WM164,,delayed exp.,23.9,-10.729,-13.457,37,5.2936,23.037,0.86368,,,,0.46867
+entry,WM164,,instantaneous,0,-8.0819,-12.164,37,,,,,,,
+entry,WM164,,Erlang k=1,14.753,,,,,,,,27.452,profile-likelihood 95% CI of the mean waiting time,
+entry,WM164,,Erlang k=8,21.268,,,,,,,14.737,25.733,profile-likelihood 95% CI of the mean waiting time,
+entry,WM983b,,Erlang k=1,493.4,-49.89,-93.779,39,44.426,,,,,,1
+entry,WM983b,,Erlang k=2,125.04,-56.149,-106.3,39,56.944,,,,,,0.42994
+entry,WM983b,,Erlang k=3,83.747,-59.514,-113.03,39,63.675,,,,,,0.31561
+entry,WM983b,,Erlang k=4,72.229,-62.055,-118.11,39,68.757,,,,,,0.28536
+entry,WM983b,,Erlang k=6,63.072,-65.762,-125.52,39,76.169,,,,,,0.26323
+entry,WM983b,,Erlang k=8,58.682,-68.465,-130.93,39,81.577,,,,,,0.25427
+entry,WM983b,,delayed exp.,73.531,-77.236,-146.47,39,99.118,25.797,47.734,,,,0.28701
+entry,WM983b,,instantaneous,0,-27.677,-51.354,39,,,,,,,
+entry,WM983b,,delayed exp.,73.531,,,,,,,48,152.83,profile-likelihood 95% CI of the mean waiting time,
+entry,WM983b,,Erlang k=1,493.4,,,,,,,157.46,616.85,profile-likelihood 95% CI of the mean waiting time,

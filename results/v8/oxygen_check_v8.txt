@@ -1,0 +1,27 @@
+Layout: equal thickness shells
+  1. max |p_num - p_exact| at shell midpoints (% O2)
+     no anoxia, R = 100 um, 21%                     (r_a =   0.0 um)  M=24: 0.0000; M=32: 0.0000; M=64: 0.0000; M=96: 0.0000; M=200: 0.0000
+     anoxic region, R = 300 um, 21%                 (r_a = 138.0 um)  M=24: 0.0059; M=32: 0.0198; M=64: 0.0063; M=96: 0.0015; M=200: 0.0000
+     anoxic region, R = 250 um, 2%                  (r_a = 207.5 um)  M=24: 0.0073; M=32: 0.0148; M=64: 0.0019; M=96: 0.0017; M=200: 0.0000
+     core 80 um + anoxic region, R = 300 um, 21%    (r_a = 138.0 um)  M=24: 0.0202; M=32: 0.0132; M=64: 0.0017; M=96: 0.0013; M=200: 0.0003
+  2. |R_pim numeric - R_pim exact| (um)
+     p_pim = 0.17%, anoxic region, R = 300 um, 21%         (exact  150.0 um)  M=24: 0.234; M=32: 0.700; M=64: 0.211; M=96: 0.049; M=200: 0.001
+     p_pim = 0.17%, anoxic region, R = 250 um, 2%          (exact  219.4 um)  M=24: 0.216; M=32: 0.466; M=64: 0.053; M=96: 0.044; M=200: 0.001
+     p_pim = 0.17%, core 80 um + anoxic region, R = 300 um, 21% (exact  150.0 um)  M=24: 0.749; M=32: 0.460; M=64: 0.053; M=96: 0.043; M=200: 0.010
+     p_pim = 1.30%, anoxic region, R = 300 um, 21%         (exact  172.6 um)  M=24: 0.067; M=32: 0.196; M=64: 0.060; M=96: 0.014; M=200: 0.000
+     p_pim = 1.30%, anoxic region, R = 250 um, 2%          (exact  241.4 um)  M=24: 0.021; M=32: 0.044; M=64: 0.005; M=96: 0.004; M=200: 0.000
+     p_pim = 1.30%, core 80 um + anoxic region, R = 300 um, 21% (exact  172.6 um)  M=24: 0.209; M=32: 0.130; M=64: 0.015; M=96: 0.012; M=200: 0.003
+
+Layout: equal volume shells
+  1. max |p_num - p_exact| at shell midpoints (% O2)
+     no anoxia, R = 100 um, 21%                     (r_a =   0.0 um)  M=24: 0.0000; M=32: 0.0000; M=64: 0.0000; M=96: 0.0000; M=200: 0.0000
+     anoxic region, R = 300 um, 21%                 (r_a = 138.0 um)  M=24: 0.0817; M=32: 0.0209; M=64: 0.0105; M=96: 0.0063; M=200: 0.0017
+     anoxic region, R = 250 um, 2%                  (r_a = 207.5 um)  M=24: 0.0055; M=32: 0.0033; M=64: 0.0010; M=96: 0.0002; M=200: 0.0001
+     core 80 um + anoxic region, R = 300 um, 21%    (r_a = 138.0 um)  M=24: 0.0332; M=32: 0.0553; M=64: 0.0055; M=96: 0.0062; M=200: 0.0002
+  2. |R_pim numeric - R_pim exact| (um)
+     p_pim = 0.17%, anoxic region, R = 300 um, 21%         (exact  150.0 um)  M=24: 3.769; M=32: 0.852; M=64: 0.371; M=96: 0.211; M=200: 0.054
+     p_pim = 0.17%, anoxic region, R = 250 um, 2%          (exact  219.4 um)  M=24: 0.152; M=32: 0.093; M=64: 0.026; M=96: 0.004; M=200: 0.003
+     p_pim = 0.17%, core 80 um + anoxic region, R = 300 um, 21% (exact  150.0 um)  M=24: 1.259; M=32: 2.280; M=64: 0.196; M=96: 0.204; M=200: 0.007
+     p_pim = 1.30%, anoxic region, R = 300 um, 21%         (exact  172.6 um)  M=24: 0.975; M=32: 0.239; M=64: 0.106; M=96: 0.060; M=200: 0.015
+     p_pim = 1.30%, anoxic region, R = 250 um, 2%          (exact  241.4 um)  M=24: 0.015; M=32: 0.009; M=64: 0.003; M=96: 0.000; M=200: 0.000
+     p_pim = 1.30%, core 80 um + anoxic region, R = 300 um, 21% (exact  172.6 um)  M=24: 0.344; M=32: 0.592; M=64: 0.056; M=96: 0.058; M=200: 0.002

@@ -1,0 +1,9 @@
+comparison,group,reference,n_group,n_ref,f_hyp_group,f_hyp_ref,R_outer_group,R_outer_ref,f_arr_group,f_arr_ref,diff_f_arr,diff_CI95_lo,diff_CI95_hi,mannwhitney_p
+exit lag: WM793b 24 h after 2%->21%,WM793b reox_d2 d3,WM793b normoxia d3,15,8,0,0,192.5,214.6,0.1406,0.002187,0.1384,0.099,0.1819,0.0001135
+exit lag: WM793b 48 h after 2%->21%,WM793b reox_d2 d4,WM793b normoxia d4,13,13,0,0,204.8,213.6,0.01733,0.00128,0.01605,0.006012,0.0277,0.00262
+exit complete: WM793b 48 h after 2%->21% (day-4 switch),WM793b reox_d4 d6,WM793b normoxia d6,11,15,0,0.006234,216.1,247.9,0.005644,0.03225,-0.02661,-0.03904,-0.01431,0.002817
+exit lag: WM164 48 h after 2%->21% (day 4 switch),WM164 reox_d4 d6,WM164 normoxia d4,14,9,0.0584,0.2265,320.3,327.8,0.2488,0.1399,0.1089,0.01201,0.1998,0.09505
+entry lag: WM983b 24 h after 21%->2%,WM983b deox_d2 d3,WM983b hypoxia d6,12,5,0.5043,0.5506,216.5,241.9,0.0003407,0.2463,-0.2459,-0.282,-0.2077,0.0002742
+entry lag: WM983b 48 h after 21%->2%,WM983b deox_d2 d4,WM983b hypoxia d6,11,5,0.4879,0.5506,223.2,241.9,0.09891,0.2463,-0.1474,-0.2034,-0.08973,0.009119
+entry lag: WM164 day 2 in 2% from seeding,WM164 hypoxia d2,WM164 hypoxia d8,7,5,0.489,0.4724,236.2,315.6,7.786e-05,0.4887,-0.4886,-0.5873,-0.3931,0.0042
+entry: WM793b 24 h after 21%->2%,WM793b deox_d2 d3,WM793b hypoxia d4,12,11,0.34,0.1639,198.7,190,0.3643,0.3094,0.05489,-0.03233,0.1392,0.2301

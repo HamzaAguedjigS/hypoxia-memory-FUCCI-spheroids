@@ -1,0 +1,136 @@
+v6 records: 748 optimisations
+
+=== 1. Final fits (64 equal-thickness shells, exact R_pim, 12-h observation window) ===
+all     finQ    NLL=  3932.77 AIC=  7907.5 dAIC=   0.0 exit=174 h G1=64.8 h sd=[10.9, 25.1, 18.4, 42.7] bound=['amax', 'hq'] near=['Kn']
+all     delayQ  NLL=  3980.02 AIC=  8002.0 dAIC=  94.5 exit=294 h G1=30.2 h sd=[11.7, 28.2, 19.1, 42.6] bound=['amax', 'hq', 'Kn'] near=['K1']
+all     instQ   NLL=  4015.04 AIC=  8070.1 dAIC= 162.5 G1=38.0 h sd=[11.1, 36.7, 18.8, 41.2] bound=['K1', 'amax', 'hq'] near=[]
+all     noQ     NLL=  4098.70 AIC=  8231.4 dAIC= 323.9 G1=32.1 h sd=[10.9, 53.1, 19.1, 41.7] bound=['Kn'] near=['p_pim']
+WM164   finQ    NLL=  3565.02 AIC=  7172.0 dAIC=   4.5 exit=1 h G1=36.2 h sd=[22.9, 57.0, 52.4, 82.4] bound=['amax', 'bmax', 'hq', 'mu0', 'Kn'] near=[]
+WM164   delayQ  NLL=  3565.33 AIC=  7172.7 dAIC=   5.1 exit=14 h G1=34.6 h sd=[22.9, 58.8, 51.4, 81.7] bound=['Kq', 'hq', 'mu0', 'Kn', 'kD'] near=[]
+WM164   instQ   NLL=  3566.58 AIC=  7173.2 dAIC=   5.6 G1=35.4 h sd=[22.8, 59.8, 50.9, 81.9] bound=['hq', 'mu0', 'kD'] near=[]
+WM164   noQ     NLL=  3566.77 AIC=  7167.5 dAIC=   0.0 G1=35.9 h sd=[23.0, 58.6, 51.7, 81.9] bound=['mu0', 'Kn', 'kD'] near=['kD_ox']
+WM983b  finQ    NLL=  2224.98 AIC=  4492.0 dAIC=   3.6 exit=1 h G1=54.8 h sd=[13.9, 36.9, 30.6, 14.0] bound=['amax', 'bmax', 'Kq', 'hq', 'mu0', 'Kn', 'kD'] near=[]
+WM983b  delayQ  NLL=  2226.09 AIC=  4494.2 dAIC=   5.8 exit=1 h G1=32.7 h sd=[13.3, 39.2, 31.0, 13.7] bound=['amax', 'hq', 'Kn'] near=['K1', 'bmax']
+WM983b  instQ   NLL=  2224.20 AIC=  4488.4 dAIC=   0.0 G1=56.1 h sd=[13.4, 39.0, 30.7, 13.6] bound=[] near=[]
+WM983b  noQ     NLL=  2229.13 AIC=  4492.3 dAIC=   3.9 G1=48.8 h sd=[14.0, 37.9, 29.9, 14.4] bound=[] near=[]
+train   finQ    NLL=  3538.47 AIC=  7118.9 dAIC=   0.0 exit=222 h G1=63.6 h sd=[11.4, 23.8, 19.5, 45.1] test=409.06 bound=['hq', 'Kn', 'kD'] near=[]
+train   delayQ  NLL=  3563.17 AIC=  7168.3 dAIC=  49.4 exit=292 h G1=38.5 h sd=[12.1, 24.6, 19.9, 45.2] test=416.09 bound=['K1', 'amax', 'hq', 'Kn', 'p_pim'] near=[]
+train   instQ   NLL=  3623.54 AIC=  7287.1 dAIC= 168.1 G1=31.4 h sd=[11.4, 39.1, 19.2, 42.6] test=408.68 bound=['K1', 'hq', 'Kn', 'kD'] near=[]
+train   noQ     NLL=  3692.39 AIC=  7418.8 dAIC= 299.8 G1=30.9 h sd=[11.3, 54.0, 19.6, 43.6] test=414.16 bound=['Kn', 'p_pim'] near=['kD']
+
+=== 2. Inhibited radius at decisive points (um) ===
+reox_d2 day 3: observed 95.7; finQ 111.4, delayQ 99.9, instQ 14.2, noQ 14.1
+reox_d2 day 4: observed 41.5; finQ 19.6, delayQ 19.5, instQ 7.8, noQ 7.0
+reox_d4 day 6: observed 20.9; finQ 27.3, delayQ 41.1, instQ 12.6, noQ 11.6
+deox_d2 day 3: observed 147.5; finQ 142.6, delayQ 135.2, instQ 134.9, noQ 114.4
+
+=== 3. Exit-time profile, all protocols (dNLL vs optimum; G1 re-estimated) ===
+ exit_h     nll  G1_h  dNLL
+   48.0 3961.06 72.17 28.29
+   72.0 3946.39 70.02 13.61
+   96.0 3938.48 68.21  5.71
+  110.0 3939.13 67.78  6.35
+  125.0 3941.09 67.09  8.31
+  144.0 3938.97 66.11  6.20
+  170.0 3933.29 67.13  0.51
+  173.5 3932.77 64.83  0.00
+  200.0 3940.42 65.68  7.65
+  230.0 3950.90 64.58 18.13
+  260.0 3952.54 63.54 19.77
+  300.0 3963.89 45.41 31.11
+  400.0 3997.82 45.31 65.05
+  500.0 3998.79 61.41 66.01
+  800.0 4012.95 61.49 80.18
+spread between the two starts per grid point: median 14.5, max 27.9
+
+=== 4. Training-only exit profile scored on the withheld day-4 reoxygenation ===
+ exit_h  nll_train  nll_test  Rinh_d6  G1_h  dTrain  dTest  Rinh_d6_obs
+     72    3551.87    397.25    18.56 69.23   13.40   1.20        20.93
+     96    3543.80    396.83    16.83 68.42    5.33   0.78        20.93
+    125    3546.13    396.35    14.81 68.84    7.66   0.29        20.93
+    144    3544.29    396.06    12.79 66.77    5.82   0.00        20.93
+    200    3539.86    404.83    49.61 63.98    1.39   8.77        20.93
+    300    3542.91    448.40    96.15 63.08    4.44  52.34        20.93
+    500    3551.11    503.28   118.93 62.25   12.64 107.22        20.93
+    800    3552.47    542.74   119.50 62.29   14.00 146.68        20.93
+   1500    3552.51    545.99   119.43 63.36   14.04 149.93        20.93
+held-out NLL of the training optimum of each model: finQ 409.06, delayQ 416.09, instQ 408.68, noQ 414.16
+
+=== 5. Fixed-choice sensitivity ===
+ scenario  eps_Q   k2   nll_F  dAIC_I  dAIC_0  exit_d  G1_h  dNLL_4d  dNLL_17d
+ baseline   0.50 0.10 3932.77  162.53  323.86    7.23 64.83     5.71     65.05
+epsQ_0.25   0.25 0.10 3931.83  158.99  323.29    7.22 65.28     7.26     66.07
+epsQ_1.00   1.00 0.10 3946.82  146.72  293.30    7.50 64.90     4.54     56.54
+  k2_0.07   0.50 0.07 3975.27  100.86  253.74    5.20 60.78     7.26     38.57
+  k2_0.14   0.50 0.14 3923.25  157.72  332.35    6.96 72.06     4.85     68.89
+
+=== 6. Univariate profiles (support band dNLL <= 10.00) ===
+k1max    MLE=0.01543  supported=[0.01304, 0.01636]  verdict=identified  (normoxic G1 time (h): 64.8; range [76.69088540986527, 61.118631314662636])
+K1       MLE=0.4476  supported=[0.1062, 0.6467]  verdict=identified  (G1 half-saturation $K_1$ (% O$_2$): 0.448; range [0.10620723496809412, 0.6466923877818999])
+a        MLE=0.002527  supported=[0.00245, 0.002616]  verdict=identified  (consumption ratio $a$: 0.00253; range [0.002449993777966675, 0.002615638472573523])
+amax     MLE=1  supported=[0.5909, None]  verdict=one-sided  (arrest-entry time (h): 1; range [1.6921922936795333, None])
+bmax     MLE=0.005764  supported=[0.004846, 0.01218]  verdict=identified  (mean exit time (d): 7.23; range [8.59878273865261, 3.4216994868163124])
+Kq       MLE=0.5248  supported=[0.1856, 0.6902]  verdict=identified  (arrest threshold $K_q$ (% O$_2$): 0.525; range [0.1855843083581315, 0.6901937007214216])
+hq       MLE=7.943  supported=[5.874, None]  verdict=one-sided  (Hill exponent $h_q$: 7.94; range [5.874060119881883, None])
+mu0      MLE=0.00229  supported=[None, 0.003212]  verdict=one-sided  (basal loss $\mu_0$ (h$^{-1}$): 0.00229; range [None, 0.0032120801951295995])
+mun      MLE=0.01239  supported=[0.007599, 0.01575]  verdict=identified  (anoxic death $\mu_{n,\max}$ (h$^{-1}$): 0.0124; range [0.007598969063789601, 0.015750068917634794])
+Kn       MLE=0.00348  supported=[None, None]  verdict=not identified  (death threshold $K_n$ (% O$_2$): 0.00348; range [None, None])
+kD       MLE=0.0003775  supported=[None, None]  verdict=not identified  (core clearance, 2% ($k_{D,h}$, h$^{-1}$): 0.000377; range [None, None])
+kD_ox    MLE=0.1422  supported=[0.0297, 0.168]  verdict=identified  (core clearance, 21% ($k_{D,o}$, h$^{-1}$): 0.142; range [0.02969516144723146, 0.1679845475670005])
+m_h      MLE=0.2248  supported=[0.2066, 0.2492]  verdict=identified  (hypoxic consumption $m_h$: 0.225; range [0.20664511199510788, 0.24915970653420033])
+tau_m    MLE=22.93  supported=[18.81, 27.85]  verdict=identified  (adaptation time $\tau_m$ (h): 22.9; range [18.81061740052222, 27.853396633718432])
+R1_norm  MLE=173.2  supported=[168.8, 177]  verdict=identified  (day-1 radius, 21% (µm): 173; range [168.82118761306324, 176.98748185313096])
+R1_hyp   MLE=178  supported=[175.7, 182.3]  verdict=identified  (day-1 radius, 2% (µm): 178; range [175.6554162196393, 182.25804433068745])
+p_pim    MLE=0.1655  supported=[None, 0.2991]  verdict=one-sided  (PIM threshold $p_{\mathrm{pim}}$ (% O$_2$): 0.166; range [None, 0.2990526411755344])
+
+=== 7. Bivariate profiles (dNLL vs optimum) ===
+exit (h) x G1 (h): rows G1 [25, 35, 45, 55, 67, 80], columns exit [72, 96, 125, 180, 260, 400]
+      72     96     125    180    260   400
+25  228.1  234.8  226.9  216.5  233.6  88.0
+35  116.6   89.0   94.8   72.3   48.3  58.4
+45   39.2   38.2   27.9   23.1   30.5  65.0
+55   30.7   28.3   22.8   14.8   23.6  64.1
+67   15.0    6.1    8.2    0.4   24.2  68.4
+80   12.4    6.8    6.8   18.6   44.0  62.2
+a x p_pim: rows p_pim [0.05, 0.1, 0.3, 1.0, 1.3], columns a [0.00123, 0.00174, 0.00246, 0.00348, 0.00491]
+      0.00123  0.00174  0.00246  0.00348  0.00491
+0.05    314.7    180.4      9.0    127.5    261.4
+0.10    312.0    164.4      7.5    132.2    269.8
+0.30    269.9    154.3      9.4    147.7    292.9
+1.00    277.6    176.8    107.2    213.2    323.6
+1.30    294.6    184.1    136.5    232.6    336.7
+
+=== 7b. Profile of the identifiable combination exit time + G1 time (days) ===
+  S_d     nll  exit_d  G1_h  dNLL
+ 4.00 3978.92    1.92 49.84 46.15
+ 5.00 3961.60    1.96 73.07 28.83
+ 5.50 3948.40    2.61 69.32 15.62
+ 6.00 3947.94    3.13 68.94 15.16
+ 6.50 3948.26    3.61 69.35 15.48
+ 7.00 3938.84    4.18 67.73  6.07
+ 7.50 3939.61    4.69 67.51  6.84
+ 8.00 3941.04    5.20 67.31  8.27
+ 9.00 3938.67    6.26 65.85  5.90
+ 9.93 3932.77    7.23 64.83  0.00
+10.00 3932.96    7.29 64.96  0.18
+12.00 3940.17    9.29 65.14  7.39
+
+=== 8. Numerical robustness of the v8 fits (re-scored, parameters unchanged) ===
+  dt  M    finQ  delayQ   instQ     noQ  dAIC_delayQ  dAIC_instQ  dAIC_noQ  max_diff_out  max_diff_inh  max_diff_nec  max_diff_pim
+0.50 64 3932.77 3980.02 4015.04 4098.70        94.49      162.53    323.86           NaN           NaN           NaN           NaN
+0.25 64 3932.84 3980.06 4015.04 4098.71        94.43      162.40    323.73          0.00          0.00          0.01         16.08
+0.50 96 3932.70 3982.23 4014.93 4098.33        99.07      162.46    323.27          0.02          0.21          0.39         16.23
+0.25 96 3932.70 3982.24 4014.93 4098.33        99.08      162.45    323.26          0.02          0.20          0.39         16.23
+
+=== 9. Readout versus arrest (day-2 reoxygenation) ===
+arrested at switch 98.0%; readout cleared at day 3.52 with 75.4% of switch-region cells still arrested; minimum 39.7% at day 6.17
+ exit_h  dNLL  clear_day  arrested_pct
+     72 13.61       2.85         71.57
+     96  5.71       3.04         72.89
+    110  6.35       3.15         73.48
+    125  8.31       3.23         74.17
+    144  6.20       3.35         74.64
+    170  0.51       3.52         75.08
+    200  7.65       3.69         75.64
+    230 18.13       3.85         75.79
+    260 19.77       4.00         76.37

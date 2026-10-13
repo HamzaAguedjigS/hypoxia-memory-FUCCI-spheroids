@@ -1,0 +1,189 @@
+{
+  "k1max": {
+    "mle": 0.015426026145337057,
+    "low": 0.013039359170983872,
+    "high": 0.016361622937064946,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.008333333333333337,
+    "hi_bound": 0.20000000000000004,
+    "max_dNLL": 200.59191542420285
+  },
+  "K1": {
+    "mle": 0.44757015237755704,
+    "low": 0.10620723496809412,
+    "high": 0.6466923877818999,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.03162277660168379,
+    "hi_bound": 19.952623149688797,
+    "max_dNLL": 43.25160861675522
+  },
+  "a": {
+    "mle": 0.0025274020934298257,
+    "low": 0.002449993777966675,
+    "high": 0.002615638472573523,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.0001,
+    "hi_bound": 0.01,
+    "max_dNLL": 410.6058647449481
+  },
+  "amax": {
+    "mle": 1.0,
+    "low": 0.5909493878060289,
+    "high": null,
+    "verdict": "one-sided",
+    "at_lo": false,
+    "at_hi": true,
+    "lo_bound": 0.001,
+    "hi_bound": 1.0,
+    "max_dNLL": 64.21768545475425
+  },
+  "bmax": {
+    "mle": 0.005763576328657199,
+    "low": 0.004845647102975374,
+    "high": 0.012177184708127311,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.0001,
+    "hi_bound": 1.0,
+    "max_dNLL": 80.1788493267909
+  },
+  "Kq": {
+    "mle": 0.5248446022587392,
+    "low": 0.1855843083581315,
+    "high": 0.6901937007214216,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.1,
+    "hi_bound": 19.952623149688797,
+    "max_dNLL": 116.32496167866793
+  },
+  "hq": {
+    "mle": 7.943282347242816,
+    "low": 5.874060119881883,
+    "high": null,
+    "verdict": "one-sided",
+    "at_lo": false,
+    "at_hi": true,
+    "lo_bound": 1.0,
+    "hi_bound": 7.943282347242816,
+    "max_dNLL": 105.62904664265807
+  },
+  "mu0": {
+    "mle": 0.0022896629172671754,
+    "low": null,
+    "high": 0.0032120801951295995,
+    "verdict": "one-sided",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.0001,
+    "hi_bound": 0.05011872336272722,
+    "max_dNLL": 123.42997552596489
+  },
+  "mun": {
+    "mle": 0.012387969253338158,
+    "low": 0.007598969063789601,
+    "high": 0.015750068917634794,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.001,
+    "hi_bound": 1.0,
+    "max_dNLL": 89.58886478790919
+  },
+  "Kn": {
+    "mle": 0.003479578935367812,
+    "low": null,
+    "high": null,
+    "verdict": "not identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.0031622776601683794,
+    "hi_bound": 0.31622776601683794,
+    "max_dNLL": 7.820259758817883
+  },
+  "kD": {
+    "mle": 0.00037745560593857136,
+    "low": null,
+    "high": null,
+    "verdict": "not identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.00031622776601683794,
+    "hi_bound": 0.31622776601683794,
+    "max_dNLL": 8.67588219749905
+  },
+  "kD_ox": {
+    "mle": 0.14223687415375377,
+    "low": 0.02969516144723146,
+    "high": 0.1679845475670005,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.00031622776601683794,
+    "hi_bound": 0.5011872336272722,
+    "max_dNLL": 18.976799152841068
+  },
+  "m_h": {
+    "mle": 0.2248212453920532,
+    "low": 0.20664511199510788,
+    "high": 0.24915970653420033,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.03162277660168379,
+    "hi_bound": 1.0,
+    "max_dNLL": 239.13658841597226
+  },
+  "tau_m": {
+    "mle": 22.92726801753571,
+    "low": 18.81061740052222,
+    "high": 27.853396633718432,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 1.0,
+    "hi_bound": 316.22776601683796,
+    "max_dNLL": 222.926194235999
+  },
+  "R1_norm": {
+    "mle": 173.23390095728487,
+    "low": 168.82118761306324,
+    "high": 176.98748185313096,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 79.43282347242814,
+    "hi_bound": 281.8382931264455,
+    "max_dNLL": 270.78509975167344
+  },
+  "R1_hyp": {
+    "mle": 177.98797595452731,
+    "low": 175.6554162196393,
+    "high": 182.25804433068745,
+    "verdict": "identified",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 79.43282347242814,
+    "hi_bound": 281.8382931264455,
+    "max_dNLL": 233.14406028273243
+  },
+  "p_pim": {
+    "mle": 0.16554233765001455,
+    "low": null,
+    "high": 0.2990526411755344,
+    "verdict": "one-sided",
+    "at_lo": false,
+    "at_hi": false,
+    "lo_bound": 0.05011872336272722,
+    "hi_bound": 1.9952623149688795,
+    "max_dNLL": 147.84694526955263
+  }
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or these records, please cite the article and this archive."
+title: "Code and data for: Mathematical modelling reveals a multi-day memory of hypoxia-induced cell-cycle arrest in melanoma spheroids"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Aguedjig
+    given-names: Hamza
+  - family-names: Douiri
+    given-names: Sidi Mohamed
+  - family-names: El Harraki
+    given-names: Imad
+keywords:
+  - FUCCI
+  - hypoxia
+  - cell-cycle arrest
+  - tumour spheroid
+  - profile likelihood
+  - reoxygenation
